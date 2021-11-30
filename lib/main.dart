@@ -1,10 +1,12 @@
-import 'package:bytebank_flutter/screens/dashboard.dart';
 import 'package:flutter/material.dart';
+import 'screens/dashboard.dart';
 
-void main() => runApp(BytebankApp());
+void main() {
+  runApp(BytebankApp());
+}
 
 class BytebankApp extends StatelessWidget {
-  // This widget is the root of your application.
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
